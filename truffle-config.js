@@ -17,9 +17,9 @@ module.exports = {
   // to customize your Truffle configuration!
   networks: {
     ganache: {
-      host: 'localhost',
+      host: "localhost",
       port: 7545, // Ganacheで表示されたポートに設定
-      network_id: '*' // ワイルドカード
+      network_id: "*" // ワイルドカード
     }
   }
 };
